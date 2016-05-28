@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/6c6b34d/
+DataMigrate	lib/data_migrate/data_migrator.rb	/^module DataMigrate$/;"	m
+DataMigrate	lib/data_migrate/data_schema_migration.rb	/^module DataMigrate$/;"	m
+DataMigrate	lib/data_migrate/migration.rb	/^module DataMigrate$/;"	m
+DataMigrate	lib/data_migrate/railtie.rb	/^module DataMigrate$/;"	m
+DataMigrate	lib/data_migrate/version.rb	/^module DataMigrate$/;"	m
+DataMigrate	lib/generators/data_migrate.rb	/^module DataMigrate$/;"	m
+DataMigrate	lib/generators/data_migration/data_migration_generator.rb	/^module DataMigrate$/;"	m
+DataMigrationGenerator	lib/generators/data_migrate.rb	/^    class DataMigrationGenerator < Rails::Generators::NamedBase #:nodoc:$/;"	c	module:DataMigrate.Generators
+DataMigrationGenerator	lib/generators/data_migration/data_migration_generator.rb	/^    class DataMigrationGenerator < Rails::Generators::NamedBase$/;"	c	module:DataMigrate.Generators
+DataMigrator	lib/data_migrate/data_migrator.rb	/^  class DataMigrator < ActiveRecord::Migrator$/;"	c	module:DataMigrate
+DataSchemaMigration	lib/data_migrate/data_schema_migration.rb	/^  class DataSchemaMigration < ::ActiveRecord::SchemaMigration$/;"	c	module:DataMigrate
+Generators	lib/generators/data_migrate.rb	/^  module Generators$/;"	m	module:DataMigrate
+Generators	lib/generators/data_migration/data_migration_generator.rb	/^  module Generators$/;"	m	module:DataMigrate
+Migration	lib/data_migrate/migration.rb	/^  class Migration < ::ActiveRecord::Migration$/;"	c	module:DataMigrate
+Railtie	lib/data_migrate/railtie.rb	/^  class Railtie < Rails::Railtie$/;"	c	module:DataMigrate
+assure_data_schema_table	lib/data_migrate/data_migrator.rb	/^      def assure_data_schema_table$/;"	F	class:DataMigrate.DataMigrator
+check_pending!	lib/data_migrate/migration.rb	/^      def check_pending!(connection = ::ActiveRecord::Base.connection)$/;"	F	class:DataMigrate.Migration
+create_data_migration	lib/generators/data_migration/data_migration_generator.rb	/^      def create_data_migration$/;"	f	class:DataMigrate.Generators.DataMigrationGenerator
+down	lib/generators/data_migration/templates/data_migration.rb	/^  def self.down$/;"	F
+down	lib/generators/data_migration/templates/migration.rb	/^  def self.down$/;"	F
+get_all_versions	lib/data_migrate/data_migrator.rb	/^      def get_all_versions(connection = ActiveRecord::Base.connection)$/;"	F	class:DataMigrate.DataMigrator
+index_name	lib/data_migrate/data_schema_migration.rb	/^      def index_name$/;"	F	class:DataMigrate.DataSchemaMigration
+index_name	lib/data_migrate/migration.rb	/^      def index_name$/;"	F	class:DataMigrate.Migration
+initialize	lib/data_migrate/migration.rb	/^    def initialize(name = self.class.name, version = nil)$/;"	f	class:DataMigrate.Migration
+migrate	lib/data_migrate/migration.rb	/^      def migrate(direction)$/;"	F	class:DataMigrate.Migration
+migrations_path	lib/data_migrate/data_migrator.rb	/^      def migrations_path$/;"	F	class:DataMigrate.DataMigrator
+next_migration_number	lib/generators/data_migration/data_migration_generator.rb	/^      def self.next_migration_number(dirname)$/;"	F	class:DataMigrate.Generators.DataMigrationGenerator
+record_version_state_after_migrating	lib/data_migrate/data_migrator.rb	/^    def record_version_state_after_migrating(version)$/;"	f	class:DataMigrate.DataMigrator
+schema_migrations_table_name	lib/data_migrate/data_migrator.rb	/^      def schema_migrations_table_name$/;"	F	class:DataMigrate.DataMigrator
+set_local_assigns!	lib/generators/data_migration/data_migration_generator.rb	/^      def set_local_assigns!$/;"	f	class:DataMigrate.Generators.DataMigrationGenerator
+source_root	lib/generators/data_migrate.rb	/^      def self.source_root$/;"	F	class:DataMigrate.Generators.DataMigrationGenerator
+table_name	lib/data_migrate/data_schema_migration.rb	/^      def table_name$/;"	F	class:DataMigrate.DataSchemaMigration
+table_name	lib/data_migrate/migration.rb	/^      def table_name$/;"	F	class:DataMigrate.Migration
+up	lib/generators/data_migration/templates/data_migration.rb	/^  def self.up$/;"	F
+up	lib/generators/data_migration/templates/migration.rb	/^  def self.up$/;"	F
